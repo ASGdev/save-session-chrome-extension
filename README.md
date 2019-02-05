@@ -10,5 +10,5 @@ If you want to save your private browsing session, allow this extension in "Inco
 - click the extension icon (a floppy disk)
 - click "Get" button
 - click "Manage" button to see your current session
-- you can optionnaly click the "Download" link to download your session's links in a JSON file.
+- you can optionally click the "Download" link to download your session's links in a JSON file.
 
