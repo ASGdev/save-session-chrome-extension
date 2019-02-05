@@ -1,0 +1,30 @@
+{
+  "name": "Browsing session save",
+  "description" : "Save current browsing session.",
+  "version": "0.1",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon-128.png"
+  },
+  "manifest_version": 2,
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      },
+      "description": "Opens extension"
+    }
+  },
+  "permissions": [
+          "storage",
+		  "tabs"
+   ],
+   "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "icons": {
+           "48": "icon-48.png",
+          "128": "icon-128.png" }
+}

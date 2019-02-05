@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Session save</title>
+  </head>
+
+  <body>
+	<h4>Current session</h4>
+	<button id="getSession">Refresh</button>
+	<input type="text" id="session-name-form" name="session-name-form"><button id="saveSession">Save</button>
+	<a href="#" id="current-session-download" download>Download</a>
+	
+	<table id="current-session-table">
+		<thead>
+			<tr>
+				<td>Title</td>
+				<td>URL</td>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>
+	
+    <hr>
+	<h4>Saved sessions</h4>
+	<button id="getSavedSessions">Refresh</button>
+	<table id="saved-sessions-table">
+		<thead>
+			<tr>
+				<td>Name</td>
+				<td>Datetime</td>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>
+	
+  </body>
+  
+  <script src="options.js"></script>
+</html>
